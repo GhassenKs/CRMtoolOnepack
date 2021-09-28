@@ -1,0 +1,25 @@
+[
+  {
+    "id": 2412,
+    "nom": "seif",
+    "key":"sdf",
+    "prenom": "barouni",
+    "email": "test@test.com",
+    "numero": "56245698",
+    "adresse": "addr test",
+    "mdp":"mdp1",
+    "status": "Active"
+  },
+  {
+    "id": 2412,
+    "nom": "imen",
+    "key":"sdsfdff",
+    "prenom": "mzoughi",
+    "email": "test2@test.com",
+    "numero": "71245698",
+    "adresse": "addr test 2 ",
+    "mdp":"mdp2",
+    "status": "deactivated"
+  }
+  
+]

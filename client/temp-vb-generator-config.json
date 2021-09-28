@@ -1,0 +1,502 @@
+{
+  "vb": "1.0.0",
+  "timestamp": 1627466260625,
+  "settings": {
+    "authProvider": "jwt",
+    "logo": "Visual Builder",
+    "version": "clean",
+    "theme": "default",
+    "locale": "en-US",
+    "isSidebarOpen": false,
+    "isSupportChatOpen": false,
+    "isMobileView": false,
+    "isMobileMenuOpen": false,
+    "isMenuCollapsed": false,
+    "isPreselectedOpen": false,
+    "preselectedVariant": "default",
+    "menuLayoutType": "left",
+    "routerAnimation": "slide-fadein-up",
+    "menuColor": "gray",
+    "authPagesColor": "gray",
+    "isAuthTopbar": true,
+    "primaryColor": "#4b7cf3",
+    "leftMenuWidth": 256,
+    "isMenuUnfixed": false,
+    "isMenuShadow": false,
+    "isTopbarFixed": false,
+    "isTopbarSeparated": false,
+    "isGrayTopbar": false,
+    "isContentMaxWidth": false,
+    "isAppMaxWidth": false,
+    "isGrayBackground": false,
+    "isCardShadow": true,
+    "isSquaredBorders": false,
+    "isBorderless": false,
+    "layoutMenu": "classic",
+    "layoutTopbar": "v1",
+    "layoutBreadcrumbs": "v1",
+    "layoutFooter": "v1",
+    "flyoutMenuType": "flyout",
+    "flyoutMenuColor": "blue"
+  },
+  "config": [
+    { "key": "__dashboard", "title": "Dashboard", "url": "/dashboard", "icon": "fe fe-home" },
+    { "title": "EditProfile", "url": "/EditProfile", "key": "r54da" },
+    { "title": "client", "url": "/client", "key": "9qprl9", "icon": "fe fe-users" },
+    { "title": "Reclamation", "url": "/Reclamation", "icon": "fe fe-clipboard", "key": "6z7t6c" },
+    { "title": "Ajouter Reclamation", "url": "/Ajouter Reclamation", "key": "6nk0bdq" },
+    { "title": "Historique", "url": "/Historique", "icon": "fe fe-clock", "key": "o1wx1l" },
+    { "title": "Facture", "url": "/Facture", "icon": "fe fe-dollar-sign", "key": "us0aen" },
+    { "title": "create", "url": "/create", "key": "jp42i" },
+    { "title": "ConsulterFacture", "url": "/ConsulterFacture", "key": "fnd6qj" },
+    { "title": "consulterProjet", "url": "/consulterProjet", "key": "hb3b3b" },
+    { "title": "ConsulterReclamation", "url": "/ConsulterReclamation", "key": "1djyw" },
+    { "title": "Projet", "url": "/Projet", "key": "w4es6" ,"icon": "fe fe-home" },
+    { "title": "Produit", "url": "/Produit", "key": "n40xho" ,"icon": "fe fe-home" },
+    { "title": "ReponseReclamation", "url": "/ReponseReclamation", "key": "31m3rj" }
+  ],
+  "content": {
+    "__dashboard": [
+      {
+        "key": "7ewfut",
+        "columns": [
+          {
+            "key": "7bkcx6",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "34wsid",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "cjsria",
+                    "name": "Headers-CardHeaderTabbed6",
+                    "wrapper": "card-header py-0"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "l962lj",
+        "columns": [
+          {
+            "key": "cu3r4",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "632kwr",
+                "extraClass": "card",
+                "widgets": [{ "key": "6ssjz9", "name": "ChartsChartjs-2" }]
+              }
+            ]
+          },
+          {
+            "key": "2jw9y",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "awust",
+                "extraClass": "card",
+                "widgets": [{ "key": "2b26j7", "name": "WidgetsTables-1" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "hvgivc",
+        "columns": [
+          {
+            "key": "zlng96",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "tuz30n",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "rvi6us",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Projet Courant" }
+                  },
+                  { "key": "fgh0fd", "name": "Typography-2" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "0mukkb",
+        "columns": [
+          {
+            "key": "eeqg1m",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "n6831",
+                "extraClass": "card",
+                "widgets": [{ "key": "qt2heh", "name": "WidgetsLists-13" }]
+              }
+            ]
+          },
+          {
+            "key": "3fyv1a",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "5so9e",
+                "extraClass": "card",
+                "widgets": [{ "key": "kkf3cx", "name": "ChartsChartjs-5" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "6u92jj": [
+      {
+        "key": "4cghvt",
+        "columns": [
+          {
+            "key": "751ra",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "qf2c2",
+                "extraClass": "card",
+                "widgets": [{ "key": "x07fcc", "name": "Forms-4" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "r54da": [
+      {
+        "key": "3x9j0p",
+        "columns": [
+          {
+            "key": "id03p",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "h9q62j",
+                "extraClass": "card",
+                "widgets": [{ "key": "efpaq8", "name": "Forms-6" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "8crg2q": [null],
+    "6z7t6c": [
+      {
+        "key": "lq3mywg",
+        "columns": [
+          {
+            "key": "za685j",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "qfrl4h",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "b4wzpm",
+                    "name": "Controls-Button2",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": {
+                      "title": "Ajouter reclamation",
+                      "icon": "fe fe-plus-circle",
+                      "type": "primary"
+                    }
+                  }
+                ]
+              },
+              {
+                "key": "dkro1",
+                "extraClass": "card",
+                "widgets": [{ "key": "yh04va", "name": "TablesAntd-3" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "6nk0bdq": [
+      {
+        "key": "pv7p11g",
+        "columns": [
+          {
+            "key": "o1ww1",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "5nm2se",
+                "extraClass": "card",
+                "widgets": [{ "key": "jo526o", "name": "AppPartials-WpWrite" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "o1wx1l": [
+      {
+        "key": "n5s0ft",
+        "columns": [
+          {
+            "key": "cg6p4i",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "q2tr9l",
+                "extraClass": "card",
+                "widgets": [{ "key": "zjdj6q", "name": "TablesAntd-1" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "us0aen": [
+      {
+        "key": "5vq79q",
+        "columns": [
+          {
+            "key": "n7pqdc",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "13gb4",
+                "extraClass": "card",
+                "widgets": [{ "key": "unyaj", "name": "TablesAntd-2" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "9qprl9": [
+      {
+        "key": "2tqfz",
+        "columns": [
+          {
+            "key": "abc81n",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "abf3sp",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "fna3mo",
+                    "name": "Controls-Button",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": { "title": "Create account", "type": "primary" }
+                  },
+                  { "key": "h0lk9", "name": "TablesAntd-2" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "jp42i": [
+      {
+        "key": "sx5itg",
+        "columns": [
+          {
+            "key": "pckstf",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "trxe6",
+                "extraClass": "card",
+                "widgets": [{ "key": "p9xd2", "name": "Forms-4" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fnd6qj": [
+      {
+        "key": "tcsgky",
+        "columns": [
+          {
+            "key": "gmamcm",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "gz8mcd",
+                "extraClass": "card",
+                "widgets": [{ "key": "oqgjn", "name": "Emails-3" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "hb3b3b": [
+      {
+        "key": "uk9aid",
+        "columns": [
+          {
+            "key": "vaaoht",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "rpnfkm",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "sra2v5r",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Description" }
+                  },
+                  { "key": "8vty8r", "name": "Typography-5" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "l1fogg",
+        "columns": [
+          {
+            "key": "b1qh19",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "cwj6xc",
+                "extraClass": "card",
+                "widgets": [
+                  {
+                    "key": "hlurd",
+                    "name": "Headers-Heading",
+                    "editable": true,
+                    "dataType": "object",
+                    "wrapper": "card-header",
+                    "data": { "title": "Equipe" }
+                  },
+                  { "key": "s74ce7", "name": "WidgetsGeneral-9" }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "oy5rw",
+            "className": "col-lg-6 col-md-12",
+            "cards": [
+              {
+                "key": "80mb3",
+                "extraClass": "card",
+                "widgets": [
+                  { "key": "ydrqph", "name": "WidgetsGeneral-4" },
+                  { "key": "tsp9d7", "name": "ChartsChartjs-1" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "1djyw": [
+      {
+        "key": "asx3to",
+        "columns": [
+          {
+            "key": "kgnn2wa",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "xratco",
+                "extraClass": "card",
+                "widgets": [
+                  { "key": "ifsvl", "name": "Typography-3" },
+                  {
+                    "key": "iplym",
+                    "name": "Controls-Button",
+                    "editable": true,
+                    "dataType": "object",
+                    "data": { "title": "Save", "type": "primary" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "w4es6": [
+      {
+        "key": "2xolir",
+        "columns": [
+          {
+            "key": "orhne9",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "ndbkkij",
+                "extraClass": "card",
+                "widgets": [{ "key": "hwsozv", "name": "TablesAntd-2" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "n40xho": [
+      {
+        "key": "kddcmm",
+        "columns": [
+          {
+            "key": "lbhwsi",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "9uam2",
+                "extraClass": "card",
+                "widgets": [{ "key": "nephb", "name": "TablesAntd-2" }]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "31m3rj": [
+      {
+        "key": "akmuur",
+        "columns": [
+          {
+            "key": "lddbah",
+            "className": "col-lg-12",
+            "cards": [
+              {
+                "key": "7fcp6k",
+                "extraClass": "card",
+                "widgets": [{ "key": "l613w", "name": "AppPartials-GithubWrite" }]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
